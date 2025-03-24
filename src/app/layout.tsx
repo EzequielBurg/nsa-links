@@ -6,6 +6,7 @@ import Link from "next/link";
 const tenorSans = Tenor_Sans({
   weight: '400',
   variable: "--font-tenor-sans",
+  subsets: ['latin']
 });
 
 export const metadata: Metadata = {
