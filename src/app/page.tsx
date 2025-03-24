@@ -3,13 +3,18 @@ import nay from './assets/nay.png'
 import Link from "next/link";
 
 export default function Home() {
+  // const spotifyUrl = "https://open.spotify.com/playlist/73I6W37rLtYPF68NlZtFzy?si=gx3cX-2sTLm-Vg6Ke5ZM7Q&pi=s3WpFYiQR0KQZ"
+
   return (
-    <main className="flex flex-col flex-1 h-full">
-      <header className="bg-[#cfc5b3]/20 h-38 flex justify-center items-center">
-        <Image src={nay} alt="Nayara Sousa" className="flex rounded-full w-40 h-40 -mb-46 bg-red" />
+    <main className="flex flex-col flex-1 h-ful relative">
+      <header className="bg-[#cfc5b3]/45 h-38">
+        <div className="w-full h-full bg-[url(./assets/cab-textura.png)] opacity-40">
+          <div className="w-full h-full bg-[url(./assets/folhagem-vertical.gif)] bg-cover z-10" />
+        </div>
       </header>
-      <div className="grid grid-template-col gap-3 justify-center items-center pt-30">
-        <Link href='https://google.com' className="flex justify-center bg-white flex border border-2 border-[#cfc5b3] px-3 py-5 rounded-3xl">
+      <div className="grid grid-template-col gap-4 justify-center items-center pt-34">
+        <Image src={nay} alt="Nayara Sousa" className="flex rounded-full w-40 h-40 -mt-48 m-auto z-10" />
+        <Link href='https://wa.me/c/553499195853' className="flex justify-center bg-white flex border border-2 border-[#cfc5b3] px-3 py-5 rounded-3xl">
           <h1 className="text-xl'">Informações sobre procedimentos</h1>
         </Link>
 
@@ -17,11 +22,11 @@ export default function Home() {
           <h1 className="text-xl'">Agendamento de horários</h1>
         </Link>
 
-        <Link href='https://google.com' className="flex justify-center bg-white flex border border-2 border-[#cfc5b3] px-3 py-5 rounded-3xl">
+        {/* <Link href={spotifyUrl} className="flex justify-center bg-white flex border border-2 border-[#cfc5b3] px-3 py-5 rounded-3xl">
           <h1 className="text-xl'">Playist Ateliê</h1>
-        </Link>
-        
-        <Link href='https://google.com' className="flex justify-center bg-white flex border border-2 border-[#cfc5b3] px-3 py-5 rounded-3xl">
+        </Link> */}
+
+        <Link href='https://maps.app.goo.gl/FnRDaSPWdasHzubK7' className="flex justify-center bg-white flex border border-2 border-[#cfc5b3] px-3 py-5 rounded-3xl">
           <h1 className="text-xl'">Localização / como chegar</h1>
         </Link>
       </div>

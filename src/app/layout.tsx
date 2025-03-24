@@ -24,7 +24,7 @@ export default function RootLayout({
         className={`${tenorSans.variable} antialiased`}
       >
         {children}
-        <footer className="absolute bottom-0 w-full border-t pt-1 border-[#cfc5b3]">
+        <footer className="absolute bottom-0 w-full border-t py-1 border-[#cfc5b3]">
           <p className="flex justify-center items-center text-xs">
             Desenvolvido com ❤️ por <Link className="ml-1 text-blue-400" href="https://wa.me/5534999849695">Ezequiel Burg</Link>.
           </p>
