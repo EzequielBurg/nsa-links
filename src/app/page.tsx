@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <main className="flex flex-col flex-1 h-ful relative">
       <header className="bg-[#cfc5b3]/45 h-38">
-        <div className="w-full h-full bg-[url(./assets/cab-textura.png)] opacity-40">
-          <div className="w-full h-full bg-[url(./assets/folhagem-vertical.gif)] bg-cover z-10" />
+        <div className="w-full h-full bg-[url(./assets/cab-textura.png)] sm:bg-[url(./assets/cabecalhotext-hor.png)] opacity-40">
+          <div className="w-full h-full bg-[url(./assets/folhagem-vertical.gif)] md:bg-[url(./assets/folhagem-hor.svg)] bg-cover z-10 absolute" />
         </div>
       </header>
       <div className="grid grid-template-col gap-4 justify-center items-center pt-34">
