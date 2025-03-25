@@ -27,7 +27,7 @@ export default function Home() {
         </Link>
 
         <Link href={spotifyUrl} className="justify-center bg-white flex border-2 border-[#cfc5b3] px-3 py-5 rounded-3xl">
-          <h1 className="text-xl'">Playist Ateliê Spotify</h1>
+          <h1 className="text-xl'">Playlist Ateliê Spotify</h1>
         </Link>
 
         <Link href={locationUrl} className="justify-center bg-white flex border-2 border-[#cfc5b3] px-3 py-5 rounded-3xl">
