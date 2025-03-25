@@ -10,10 +10,10 @@ export default function Home() {
     <main className="flex flex-col flex-1 h-ful relative">
       <header className="bg-[#cfc5b3]/45 h-38">
         <div className="w-full h-full bg-[url(./assets/cab-textura.png)] sm:bg-[url(./assets/cabecalhotext-hor.png)] opacity-40">
-          <div className="w-full h-full bg-[url(./assets/folhagem-vertical.gif)] md:bg-[url(./assets/folhagem-hor.svg)] bg-cover z-10 absolute" />
+          <div className="w-full h-full bg-[url(./assets/folhagem-vertical.gif)] md:bg-[url(./assets/folhagem-hor.svg)] bg-cover absolute" />
         </div>
       </header>
-      <div className="grid grid-template-col gap-4 justify-center items-center pt-34">
+      <div className="z-10 grid grid-template-col gap-4 justify-center items-center pt-34">
         <Image src={nay} alt="Nayara Sousa" width={160} height={160} className="flex rounded-full w-40 h-40 -mt-48 m-auto z-10" />
         <Link href='https://wa.me/c/553499195853' className="justify-center bg-white flex border-2 border-[#cfc5b3] px-3 py-5 rounded-3xl">
           <h1 className="text-xl'">Informações sobre procedimentos</h1>
