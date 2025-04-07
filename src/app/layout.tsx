@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Tenor_Sans } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Script from "next/script";
 
 const tenorSans = Tenor_Sans({
   weight: '400',
@@ -22,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7723172245511866" crossorigin="anonymous"></script>
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7723172245511866" crossOrigin="anonymous"></Script>
       </head>
       <body
         className={`${tenorSans.variable} antialiased`}
